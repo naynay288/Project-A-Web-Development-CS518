@@ -1,7 +1,7 @@
 <?php
 
 	//include database information and user information
-  require 'login.html';
+  require 'login1.html';
 	require 'authentication.php';
 
 	//never forget to start the session
