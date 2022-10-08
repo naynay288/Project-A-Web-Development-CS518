@@ -1,8 +1,0 @@
-CREATE TABLE userprofile(
-    firstname VARCHAR(50) DEFAULT NULL,
-    lastname VARCHAR(50) DEFAULT NULL,
-    email VARCHAR(50) DEFAULT NULL,
-    password VARCHAR(1024) DEFAULT NULL,
-    CONSTRAINT PK_userprofile PRIMARY KEY (email)
-
-);
