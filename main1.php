@@ -5,7 +5,7 @@
 	if (!isset($_SESSION['db_is_logged_in'])
 		|| $_SESSION['db_is_logged_in'] != true) {
 		// not logged in, move to login page
-		header('Location: login.php');
+		header('Location: login1.php');
 		exit;
 	} else {
 		//logged in, display appropriate information
